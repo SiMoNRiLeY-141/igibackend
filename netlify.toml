@@ -1,0 +1,6 @@
+[build]
+command = "npm install && npm run build"
+publish = "build"  # Change this to your actual build output folder
+
+[dev]
+command = "npm run start"
